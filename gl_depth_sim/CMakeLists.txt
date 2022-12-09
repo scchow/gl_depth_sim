@@ -4,7 +4,7 @@ project(gl_depth_sim VERSION 0.2.0 LANGUAGES C CXX)
 SET(CMAKE_CXX_STANDARD 14)
 SET(CMAKE_CXX_EXTENSIONS OFF)
 
-SET(OpenGL_GL_PREFERENCE LEGACY)
+SET(OpenGL_GL_PREFERENCE GLVND)
 
 # Required for core functionality
 find_package(Eigen3 REQUIRED)

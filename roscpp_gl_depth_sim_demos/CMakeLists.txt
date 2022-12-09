@@ -6,6 +6,8 @@ if (NOT $ENV{ROS_VERSION} EQUAL "1")
   return()
 endif()
 
+SET(OpenGL_GL_PREFERENCE LEGACY)
+
 find_package(gl_depth_sim REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
